@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Motor 3D">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Eros Castillo">
+    <link rel="stylesheet" href="css/style.css">
+    <title>RoblEngine</title>
+    <link rel="icon" href="img/favicon-32x32.png" type="image/png">
+</head>
+<body>
+    <input type="button" value="tutorial" id="btnTutorial">
+    <p id="FPS"></p>
+    <section id="modal">
+        <span id="btnCerrar" >&times;</span>
+        <p class="texto">
+            Movimiento<br>
+            A = Moverse en eje X negativo<br>
+            D = Moverse en eje X positivo<br>
+            ↑ = Moverse en eje Y negativo<br>
+            ↓ = Moverse en eje Y positivo<br>
+            W = Moverse en eje Z positivo<br>
+            S = Moverse en eje Z negativo<br>
+            <br>
+            Rotacion<br>
+            Q = girar en eje X negativo<br>
+            E = girar en eje X positivo<br>
+            ← = Girar en eje Y negativo<br>
+            → = Girar en eje Y positivo<br>
+            Z = Girar en eje Z negativo<br>
+            X = Girar en eje Z positivo<br>
+        </p>
+    </section>
+    <canvas id="canvas"></canvas>
+    <script type="module"src="js/main.js"></script>
+</body>
+</html>

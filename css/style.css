@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #1d1d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#canvas {
+    position: absolute;
+}
+
+#FPS {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    color: white;
+    z-index: 10;
+}
+
+#btnTutorial {
+    background-image: linear-gradient(110deg, rgb(140, 82, 254), rgb(0, 175, 240));
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    border: 0;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+#btnTutorial:active {
+    background-color: #3b3b3b;
+}
+
+#modal {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(22, 22, 22, 0.8);
+    z-index: 2;
+}
+#btnCerrar{
+    color:white;
+    padding:10px;
+    font-size:20px;
+}
+.texto {
+    padding: 10px;
+    color: rgb(202, 202, 202);
+}
